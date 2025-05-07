@@ -23,17 +23,26 @@ This project focuses on building a credit scoring model that predicts whether an
 
 ```
 Credit-scoring/
-├── .github/
-│   └── workflows/
-│       └── ci.yml
-├── .gitignore
-├── CONTRIBUTING.md
-├── LICENSE
-├── README.md
-├── CONCLUSION.md
-├── requirements.txt
-├── SCORING.ipynb
-├── output_data.csv
+│
+├── .venv/                   # Virtual environment
+│
+├── data/                    # Data files
+│   ├── test.pq              # Test dataset (Parquet format)
+│   └── train.pq             # Training dataset (Parquet format)
+│
+├── notebook/                # Jupyter notebooks
+│   └── SCORING.ipynb        # Notebook for scoring
+│
+├── outputs/                 # Output files
+│   ├── out_data.csv         # Output data in CSV format
+│   └── gitattributes        # Git attributes file
+│
+├── .gitignore               # Git ignore file
+├── CONCLUSION.md            # Conclusion documentation
+├── CONTRIBUTING.md          # Contributing guidelines
+├── LICENSE                  # License file
+├── README.md                # Project README
+└── requirements.txt         # Project dependencies
 ```
 
 ---
