@@ -28,7 +28,7 @@ Credit-scoring/
 │       └── ci.yml
 ├── .gitignore
 ├── CONTRIBUTING.md
-├── LICENSE.txt
+├── LICENSE
 ├── README.md
 ├── CONCLUSION.md
 ├── requirements.txt
@@ -77,21 +77,6 @@ Credit-scoring/
 ## 📜 Conclusion
 
 You can find the written conclusion in [`Conclusion.txt`](Conclusion.txt), summarizing key business takeaways and next steps.
-
----
-
-## 📦 Requirements
-
-```
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-lightgbm
-shap
-jupyter
-```
 
 ---
 
